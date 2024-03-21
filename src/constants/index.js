@@ -2,10 +2,10 @@ import { facebook, instagram, shieldTick, support, truckFast, twitter } from "..
 import { bigShoe1, bigShoe2, bigShoe3, customer1, customer2, shoe4, shoe5, shoe6, shoe7} from "../assets/images";
 
 export const navLinks = [
-    { href: "#home", label: "Home" },
-    { href: "#about-us", label: "About Us" },
-    { href: "#products", label: "Products" },
-    { href: "#contact-us", label: "Contact Us" },
+    { href: "#home", label: "Inicio" },
+    { href: "#about-us", label: "Nosotros" },
+    { href: "#products", label: "Servicios" },
+    { href: "#contact-us", label: "Contacto" },
 ];
 
 export const shoes = [
@@ -56,64 +56,64 @@ export const products = [
 export const services = [
     {
         imgURL: truckFast,
-        label: "Free shipping",
-        subtext: "Enjoy seamless shopping with our complimentary shipping service."
+        label: "Ventas",
+        subtext: "Venta de los mejores repuestos de partes de motor, cajas, transmisiones, piñones, coronas y trenes fijos de las marcas de Korea y Japon. A los mejores precios del mercado."
     },
     {
         imgURL: shieldTick,
-        label: "Secure Payment",
-        subtext: "Experience worry-free transactions with our secure payment options."
+        label: "Delivery",
+        subtext: "Compras sin salir de casa, realizamos entregas a domicilio en el menor tiempo posible."
+    },
+    {
+        imgURL: truckFast,
+        label: "Productos",
+        subtext: "Contamos con las mejores marcas y calidad de productos del mercado."
     },
     {
         imgURL: support,
-        label: "Love to help you",
-        subtext: "Our dedicated team is here to assist you every step of the way."
+        label: "Asesoria",
+        subtext: "Le brindamos una asesoría personalidad acerca de nuestros productos, a elegir el mejor repuesto para su movilidad."
     },
 ];
 
 export const reviews = [
     {
         imgURL: customer1,
-        customerName: 'Jeann Torp',
+        customerName: 'Susana Horia',
         rating: 4.5,
-        feedback: "The attention to detail and the quality of the product exceeded my expectations. Highly recommended!"
+        feedback: "Lorem ipsum dolor no me acuerdo que más seguía, pero buen servicio!"
     },
     {
         imgURL: customer2,
-        customerName: 'Anastasia Dan',
+        customerName: 'Elmer Curio',
         rating: 4.5,
-        feedback: "The product not only met but exceeded my expectations. I'll definitely be a returning customer!"
+        feedback: "Lorem blablabla tengo sueño aaaa!"
     }
 ];
 
 
 export const footerLinks = [
     {
-        title: "Products",
+        title: "Links",
         links: [
-            { name: "Force 1", link: "/" },
-            { name: "Max 1", link: "/" },
-            { name: "Jordan 1", link: "/" },
-            { name: "Force 2", link: "/" },
-            { name: "Waffle Racer", link: "/" },
-            { name: "Cortez", link: "/" },
+            { name: "Inicio", link: "#home" },
+            { name: "Nosotros", link: "about-us" },
+            { name: "Servicios", link: "#products" },
+            { name: "Contacto", link: "contact-us" },
         ],
     },
     {
-        title: "Help",
+        title: "Ubicación",
         links: [
-            { name: "About us", link: "/" },
-            { name: "FAQs", link: "/" },
-            { name: "How it works", link: "/" },
-            { name: "Privacy policy", link: "/" },
-            { name: "Payment policy", link: "/" },
+            { name: "Avenidad Nicolás Ayllon 3384", link: "https://www.google.com/maps/place/Av.+Nicol%C3%A1s+Ayll%C3%B3n+3384,+Ate+15012/@-12.0523847,-76.9580836,17z/data=!3m1!4b1!4m6!3m5!1s0x9105c68ec9360e07:0x8252b2e61a66297a!8m2!3d-12.0523847!4d-76.9580836!16s%2Fg%2F11jymcwkwt?entry=ttu" },
         ],
     },
     {
-        title: "Get in touch",
+        title: "Contacta con nosotros",
         links: [
-            { name: "customer@Shoeniverse.com", link: "mailto:customer@Shoeniverse.com" },
-            { name: "+92554862354", link: "tel:+92554862354" },
+            { name: "ventas@ikomiperu.com", link: "mailto:ventas@ikomiperu.com", target:"_blank"  },
+            { name: "+51 985 068 416", link: "tel:+51985068416" },
+            { name: "+51 981 453 306", link: "tel:+51981453306" },
         ],
     },
 ];

@@ -6,11 +6,10 @@ const Footer = () => {
       <div className='flex justify-between items-start gap-20 flex-wrap max-lg:flex-col mb-[90px]'>
         <div className='flex flex-col items-start'>
           <a href='/'>
-           <h1 className="text-white font-extrabold text-[50px]">Shoeniverse</h1>
+           <h1 className="text-white font-extrabold text-[50px]">IKOMI PERU</h1>
           </a>
           <p className='mt-6 text-base leading-7 font-montserrat text-white-400 sm:max-w-sm'>
-            Get shoes ready for the new term at your nearest Shoeniverse store. Find
-            Your perfect Size In Store. Get Rewards
+          Empresa importadora y comercializadora de repuestos para todo tipo de vehículos con calidad y a precios de mercado.
           </p>
           <div className='flex items-center gap-5 mt-8'>
             {socialMedia.map((icon) => (

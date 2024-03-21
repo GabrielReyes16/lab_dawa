@@ -14,7 +14,7 @@ const Nav = () => {
         {/* Logo */}
         <a className="flex gap-1 items-baseline" href='/'>
          <SlEnergy className="text-coral-red w-[28px] h-[28px]" />
-         <h1 className="text-coral-red font-bold text-[40px]">Shoe<span className="text-black">niverse</span></h1>
+         <h1 className="text-coral-red font-bold text-[40px]">IKOMI<span className="text-black"> Peru</span></h1>
         </a>
 
         {/* Navbar-Links */}
